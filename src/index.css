@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+*  {
+    font-family: 'Rubik', sans-serif;
+  }
+
+
+
+@tailwind base;
+@tailwind components;
+.title {
+  @apply capitalize dark:text-cusBlue-500 font-medium mb-1 text-cusBlue-300;
+}
+
+.sub-title {
+  @apply dark:text-cusBlue-500 inline-block ml-1 font-light text-cusBlue-200
+}
+@tailwind utilities;
+
+
